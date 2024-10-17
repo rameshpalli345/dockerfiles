@@ -1,3 +1,3 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-CMD ["ngnix", "-g" ,"daemonoff;"]
+CMD ["ngnix", "-g","daemon off;"]
